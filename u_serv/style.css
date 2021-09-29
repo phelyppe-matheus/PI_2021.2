@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;500;800&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p, h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.acoes {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    padding: 50px 0px;
+
+    background-color: #00000066;
+    box-shadow: 5px 0px 10px #000;
+}
+
+.acoes * {
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+.acoes h1 {
+    color: white;
+    font-size: 4em;
+    margin: 0 -15px;
+}
+
+#container-services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.service {
+    display: grid;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 4px 4px 10px #2b082b;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    color: rgb(88, 23, 149);
+    gap: 10px;
+}
+
+.service span {
+    color: #939517;
+}
+
+.service p:nth-child(1) {
+    grid-row: 2/3;
+    justify-self: center;
+    font-weight: lighter;
+    font-size: 0.7em;
+    color: black;
+    margin-top: -10px;
+}
+
+.service p:nth-child(2) span {
+    grid-row: 1/2;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: black;
+}
+
