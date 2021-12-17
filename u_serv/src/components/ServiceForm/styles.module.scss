@@ -1,0 +1,19 @@
+@import '../../colors.scss';
+
+.ordenar {
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: filter .1s;
+}
+
+.delete {
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: filter .1s;
+}
+
+.ordenar:active, .delete:active {
+    filter: opacity(30%);
+}
